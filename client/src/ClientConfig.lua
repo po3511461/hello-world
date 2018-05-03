@@ -6,7 +6,7 @@ ClientConfig.port = 7001;
 
 function ClientConfig.return_key()
     local layer = cc.Layer:create()
-    
+    print("111111111111");
     --回调方法
     local function onrelease(code, event)
         if code == cc.KeyCode.KEY_BACK then
