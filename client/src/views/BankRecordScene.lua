@@ -384,8 +384,8 @@ function BankRecordScene:createCenterItem( data )
     local time = cc.Label:createWithSystemFont(data.record_date_str, "Arial", size-4);
     time:setWidth(offx - 20)
     time:setMaxLineWidth(offx - 20)
-   time:setHorizontalAlignment(1);
-   time:setVerticalAlignment(1);
+    time:setHorizontalAlignment(1);
+    time:setVerticalAlignment(1);
     time:setColor(cc.c3b(0, 0, 0));
     layout:addChild(time)
     time:setPosition(offx /2, y);
@@ -405,7 +405,7 @@ function BankRecordScene:createCenterItem( data )
     layout:addChild(sl)
     sl:setPosition(offx /2 + offx * 3, y);
     sl:setColor(cc.c3b(0, 0, 0));
-
+    
     return layout;
 end
 
