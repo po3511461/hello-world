@@ -8,7 +8,7 @@ function ClientConfig.return_key()
     local layer = cc.Layer:create()
     --回调方法
     print("11111111111");
-    print("22222222222");
+    print("333333333333");
     local function onrelease(code, event)
         if code == cc.KeyCode.KEY_BACK then
 			print("你点击了返回键")
