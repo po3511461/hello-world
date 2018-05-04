@@ -5,6 +5,7 @@ ClientConfig.ip = "39.108.68.45"
 ClientConfig.port = 7001;
 
 function ClientConfig.return_key()
+    print("1111111111");
     local layer = cc.Layer:create()
     --回调方法
     local function onrelease(code, event)
