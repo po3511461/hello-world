@@ -15,6 +15,7 @@ end
 
 function CityScene:onCreate()
     -- add background image
+    print("22222222222");
     local bg = display.newSprite("city/bg.jpg")
     local bgSize = bg:getContentSize();
     local scalex = display.width/bgSize.width
